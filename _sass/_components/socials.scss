@@ -1,0 +1,19 @@
+.socials {
+  @include font-size(2.5);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  overflow: hidden;
+  text-align: center;
+
+  &::before {
+    border-top: 1px solid $gray-lighter;
+    bottom: 0;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    width: 185px;
+  }
+
+}
