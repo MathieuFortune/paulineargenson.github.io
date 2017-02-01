@@ -149,7 +149,7 @@ personnals:
     icon_name: plane
   - quality_name: Sportive
     icon_name: heart
-  - quality_name: <a href="http://rouge-cannelle.com" target="_blank" title="My blog">Bloger</a>
+  - quality_name: <a href="http://rouge-cannelle.com" target="_blank" title="My blog">Blogger</a>
     icon_name: pencil
   - quality_name: Photo/Video Lover
     icon_name: camera-retro
