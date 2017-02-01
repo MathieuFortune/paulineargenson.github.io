@@ -1,144 +1,144 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %}
+  {% include header.html %}
 
-    <main class="page-content home" aria-label="Content">
-      <div class="container">
-          <section class="row" id="bio-section">
-            <div class="col-sm-4 text-center">
-              <img src="{{ site.data[page.lang].bio.img_url }}" alt="{{ site.data[page.lang].bio.img_alt }}"/>
-              {% include social-networks.html %}
+  <main class="page-content home" aria-label="Content">
+    <div class="container">
+      <section class="row" id="bio-section">
+        <div class="col-sm-4 text-center">
+          <img src="{{ site.data[page.lang].bio.img_url }}" alt="{{ site.data[page.lang].bio.img_alt }}"/>
+          {% include social-networks.html %}
+        </div>
+        <div class="col-sm-8">
+          <h3 class="no-marg-top">{{ site.data[page.lang].bio.title }}</h3>
+          <p>
+            {{ site.data[page.lang].bio.description }}
+          </p>
+          <p>
+            <a target="_blank" href="mailto:{{ site.data[page.lang].bio.mail }}"><i class="fa fa-fw fa-envelope-o"></i>&nbsp;{{ site.data[page.lang].bio.mail }}</a>
+            &bull;
+            <a href="tel:{{ site.data[page.lang].bio.phone }}"><i class="fa fa-fw fa-mobile"></i>{{ site.data[page.lang].bio.phone }}</a>
+            &bull;
+            <a target="_blank" href="{{ site.data[page.lang].bio.cv_url }}"><i class="fa fa-fw fa-file-pdf-o"></i>{{ site.data[page.lang].bio.get_cv }}</a>
+          </p>
+        </div>
+      </section>
+    </div>
+
+    {% include quote_one.html %}
+
+    <div class="container">
+      <section class="timeline-section" id="experience-section" data-scroll-offset="100">
+        <h2 class="text-center">{{ site.data[page.lang].experiences_title }}</h2>
+        <ul class="timeline no-marg-left list-unstyled">
+          {% for el in site.data[page.lang].experiences %}
+          <li class="clearfix">
+            <div class="timeline-badge info"><i class="fa fa-paper-plane-o"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title h4 no-marg-top">
+                  {{ el.job_name }} | <span class="text-primary">{{ el.company_name}}</span>
+                </h3>
+                <h4>
+                  <span class="text-primary">{{ el.date }}</span>
+                </h4>
+              </div>
+              <div class="timeline-body">
+                {{ el.desc }}
+              </div>
             </div>
-            <div class="col-sm-8">
-              <h3 class="no-marg-top">{{ site.data[page.lang].bio.title }}</h3>
-              <p>
-                {{ site.data[page.lang].bio.description }}
-              </p>
-              <p>
-                <a target="_blank" href="mailto:{{ site.data[page.lang].bio.mail }}"><i class="fa fa-fw fa-envelope-o"></i>&nbsp;{{ site.data[page.lang].bio.mail }}</a>
-                &bull;
-                <a href="tel:{{ site.data[page.lang].bio.phone }}"><i class="fa fa-fw fa-mobile"></i>{{ site.data[page.lang].bio.phone }}</a>
-                &bull;
-                <a target="_blank" href="{{ site.data[page.lang].bio.cv_url }}"><i class="fa fa-fw fa-file-pdf-o"></i>{{ site.data[page.lang].bio.get_cv }}</a>
-              </p>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section class="timeline-section" id="formation-section">
+        <h2 class="text-center">{{ site.data[page.lang].formations_title }}</h2>
+        <ul class="timeline no-marg-left list-unstyled">
+          {% for el in site.data[page.lang].formations %}
+          <li class="clearfix">
+            <div class="timeline-badge forma"><i class="fa fa-graduation-cap"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title h4 no-marg-top">
+                  {{ el.name }} | <span class="text-primary">{{ el.company_name}}</span>
+                </h3>
+                <h4>
+                  <span class="text-primary">{{ el.date }}</span>
+                </h4>
+              </div>
+              <div class="timeline-body">
+                {{ el.desc }}
+              </div>
             </div>
-          </section>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
 
-          <section class="timeline-section" id="experience-section" data-scroll-offset="100">
-            <h2 class="text-center">{{ site.data[page.lang].experiences_title }}</h2>
-            <ul class="timeline no-marg-left list-unstyled">
-              {% for el in site.data[page.lang].experiences %}
-              <li class="clearfix">
-                <div class="timeline-badge info"><i class="fa fa-paper-plane-o"></i></div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h3 class="timeline-title no-marg-top">
-                      {{ el.job_name }} | <span class="text-blue">{{ el.company_name}}</span>
-                    </h3>
-                    <h4>
-                      {{ el.date }}
-                    </h4>
-                  </div>
-                  <div class="timeline-body">
-                    {{ el.desc }}
-                  </div>
-                </div>
-              </li>
-              {% endfor %}
-            </ul>
-          </section>
-        </div>
+      <section id="skills-section">
+        <h2 class="text-center">{{ site.data[page.lang].skills_title }}</h2>
+        <ul class="list-unstyled list-inline text-center labeled--primary">
+          {% for skill in site.data[page.lang].skills %}
+          <li>{{ skill }}</li>
+          {% endfor %}
+        </ul>
+      </section>
 
-        {% include quote_one.html %}
+      <section id="tools-section">
+        <h2 class="text-center">{{ site.data[page.lang].tools_title }}</h2>
+        <ul class="list-unstyled list-inline text-center labeled--primary">
+          {% for tool in site.data[page.lang].tools %}
+          <li>{{ tool }}</li>
+          {% endfor %}
+        </ul>
+      </section>
 
-        <div class="container">
-          <section class="timeline-section" id="formation-section">
-            <h2 class="text-center">{{ site.data[page.lang].formations_title }}</h2>
-            <ul class="timeline no-marg-left list-unstyled">
-            {% for el in site.data[page.lang].formations %}
-              <li class="clearfix">
-                <div class="timeline-badge forma"><i class="fa fa-graduation-cap"></i></div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h3 class="timeline-title no-marg-top">
-                      {{ el.name }} | <span class="text-blue">{{ el.company_name}}</span>
-                    </h3>
-                    <h4>
-                      {{ el.date }}
-                    </h4>
-                  </div>
-                  <div class="timeline-body">
-                    {{ el.desc }}
-                  </div>
-                </div>
-              </li>
-            {% endfor %}
-            </ul>
-          </section>
+    </div>
 
-          <section id="skills-section">
-            <h2 class="text-center">{{ site.data[page.lang].skills_title }}</h2>
-            <ul class="list-unstyled list-inline labeled--primary">
-            {% for skill in site.data[page.lang].skills %}
-              <li>{{ skill }}</li>
-            {% endfor %}
-            </ul>
-          </section>
-          
-          <section id="tools-section">
-            <h2 class="text-center">{{ site.data[page.lang].tools_title }}</h2>
-            <ul class="list-unstyled list-inline labeled--primary">
-              {% for tool in site.data[page.lang].tools %}
-              <li>{{ tool }}</li>
-              {% endfor %}
-            </ul>
-          </section>
+    {% include quote_two.html %}
 
-        </div>
+    <div class="container">
 
-        {% include quote_two.html %}
+      <section class="" id="iam-section">
+        <h2 class="text-center">{{ site.data[page.lang].personnals_title }}</h2>
+        <ul class="list-unstyled clearfix">
+          {% for el in site.data[page.lang].personnals %}
+          <li class="col-sm-3">
+            <div class="circle-icon--primary"><i class="fa fa-{{ el.icon_name }}"></i></div>&nbsp;<span class="h5">{{ el.quality_name }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
 
-        <div class="container">
-        
-        <section class="" id="iam-section">
-          <h2 class="text-center">{{ site.data[page.lang].personnals_title }}</h2>
-          <ul class="list-unstyled clearfix">
-            {% for el in site.data[page.lang].personnals %}
-            <li class="col-sm-3">
-              <div class="circle-icon--primary"><i class="fa fa-{{ el.icon_name }}"></i></div>&nbsp;<span class="h5">{{ el.quality_name }}</span>
-            </li>
-            {% endfor %}
-          </ul>
-        </section>
-        
-        <section id="portfolio-section">
-          <h2 class="text-center">{{ site.data[page.lang].post.title }}</h2>
-          <ul class="post-list">
-            {% assign posts=site.posts | where:"lang", page.lang %}
-            {% for post in posts %}
-              <li>
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-                <h2>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h2>
-              </li>
-            {% endfor %}
-          </ul>
-          <p class="rss-subscribe">suivre le <a href="{{ "/flux.xml" | prepend: site.baseurl }}">flux RSS</a></p>
-        </section>
+      <section id="portfolio-section">
+        <h2 class="text-center">{{ site.data[page.lang].post.title }}</h2>
+        <ul class="post-list">
+          {% assign posts=site.posts | where:"lang", page.lang %}
+          {% for post in posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </li>
+          {% endfor %}
+        </ul>
+        <p class="rss-subscribe">suivre le <a href="{{ "/flux.xml" | prepend: site.baseurl }}">flux RSS</a></p>
+      </section>
 
 
-        </div>
+    </div>
 
-    </main>
+  </main>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-  </body>
+</body>
 
 </html>

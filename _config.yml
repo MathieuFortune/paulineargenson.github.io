@@ -30,6 +30,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: paulineargenson
 github_username:  paulineargenson
+google_analytics:
 
 # Build settings
 markdown: kramdown
@@ -39,5 +40,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
 #sass:
-#  style: compressed
+style: compressed
