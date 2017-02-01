@@ -1,0 +1,25 @@
+.circle-icon,
+%circle-icon {
+  background-color: $gray-light;
+  border-radius: 50%;
+  color: $white-color;
+  display: inline-block;
+  font-size: 1.4em;
+  height: 50px;
+  line-height: 50px;
+  margin-left: -25px;
+  text-align: center;
+  vertical-align: middle;
+  width: 50px;
+  z-index: 100;
+
+  &--primary {
+    @extend %circle-icon;
+    background-color: $brand-primary;
+  }
+
+  &--secondary {
+    @extend %circle-icon;
+    background-color: $brand-secondary;
+  }
+}

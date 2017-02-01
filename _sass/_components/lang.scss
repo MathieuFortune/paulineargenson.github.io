@@ -1,0 +1,16 @@
+.lang {
+  @include font-size(1.5);
+  font-family: $font-family-heading;
+  text-align: right;
+  text-transform: uppercase;
+
+  .separator {
+    @include font-size(1);
+  }
+
+  .en:lang(en),
+  .fr:lang(fr){
+    font-weight: 700;
+  }
+
+}

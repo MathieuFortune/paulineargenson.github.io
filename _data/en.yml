@@ -1,0 +1,155 @@
+post:
+  title: Portfolio
+
+bio:
+  title: Pauline Argenson | Communication - Digital Marketing Coordinator
+  description: |
+    Through my 6+ years of experience I developed a set of analytic, strategic and organization skills enabling me to review, plan, lead, execute, measure and optimize projects and marketing campaigns on time and within budget.
+    <br>
+    <br> I’m result-driven, dynamic, passionated by web culture and always determined to actively contribute in achieving marketing objectives and increasing sales of businesses I’m working for.
+    <br>
+    <br> French native, I’m now looking for new challenges at the international. For any question, project or position, feel free to contact me to discuss about our future collaboration.
+  img_url: assets/images/pauline-argenson-web-project-manager.jpg
+  img_alt: Author's picture
+  mail: pauline.argenson@gmail.com
+  phone: "06.75.12.80.91"
+  get_cv: Download my resume
+  cv_url: assets/images/cv_resume_pauline_argenson_digital_marketing_coordinator.pdf
+
+experiences_title: Work Experience
+experiences:
+  - job_name: Digital Marketing Consultant 
+    company_name: INTERN ABROAD USA ● Miami
+    date: June 2016 - Today
+    desc: |
+      Development & optimization of Intern Abroad Marketing digital through :<br>
+      - Ads Campaigns (Adwords / Facebook Ads)<br>
+      - SEO<br>
+      - Community Management<br>
+      - Blogging<br>
+      - Trafic Management / Data Analyze & Return on Investment<br> 
+      - E-reputation
+  - job_name: Digital Marketing Coordinator
+    company_name: LEMEMO ● Montpellier FRANCE
+    date: May 2015 - May 2016
+    desc: |
+      Coordinate and manage the overhaul of the main website and build digital marketing strategy around it, from concept to execution.
+      <br><br>
+      <i>Website overhaul :</i>
+      <br> - Conceive and provide <strong>specifications, wireframes (mockups, personas...)</strong>, tests and optimizations
+      <br> - Lead briefings between brand and external agency<br><br>
+      <i>Digital Marketing Strategy development :</i>
+      <br> - Implement the <strong>acquisition strategy</strong> including ad campaigns (Facebook Ads, Adwords), and email campaigns (ROI 100%)
+      <br> - Develop and execute a <strong>retention strategy</strong> using newsletters, social medias, videos, and blogging to increase the interaction and engagement rate (15% increase of returning visitors rate).
+      <br> - Improve online visibility and <strong>increase organic traffic of 25%</strong> through SEO actions in collaboration with Olivier Duffez (SEO specialist) : technical and semantic optimizations, linking and content strategy ..
+      <br> - <strong>AB testing</strong> and analysis for optimize micro and macro conversions
+      <br> - Produce and present current status report based on <strong>tracking of metrics (ROI)</strong> including suggestions of optimizations.
+      <br> - Online reputation management
+  - job_name: Web Project Manager
+    company_name: Digital & Web Agency PUBLIKA ● Montpellier FRANCE
+    date: September 2012 - May 2015
+    desc: |
+      Responsible for many types of Website’s projects : Corporate, E-commerce, Blogs, Catalogs, for various types and sizes of companies.
+      <br>
+      <br> - Created project plans : defining the <strong>objectives, strategy, analytic, process document, timelines, budgets, and scheduling</strong>
+      <br> - <strong>Client service management</strong> : lead briefings, take care of client’s need, support and advise clients, building relationship.
+      <br> - Identified and provided optimizations to increase performances of websites : web design, ergonomy, user experience, accessibility, SEO friendly ...
+      <br> - <strong>Main interlocutor between internal team and clients</strong> (Web marketing manager, Artistic Director, Development team) but also with freelancers and web hosting providers.
+      <br> - Guaranteed the communication of informations to internal and external protagonists.
+      <br> - Ensured the high quality of provided work on time
+      <br> - <strong>Recommended marketing solutions</strong> to improve sales and marketing results.
+      <br> - <strong>Trained customers</strong> on software and CMS allowing them to work in autonomy
+  - job_name: Account Manager
+    company_name: Digital & Web Agency PUBLIKA ● Montpellier FRANCE
+    date: June 2011 - August 2012
+    desc: |
+      Owner of client relationship
+      <br>
+      <br> - Managed and maintained our <strong>client's portfolio</strong> (50)
+      <br> - Provided <strong>commercial offers</strong>, contracts and specifications
+      <br> - Project management : coordinated internal services
+      <br> - Measured and maintained <strong>customer satisfaction</strong>
+      <br> - Identified, analysed and advised suitable solutions to clients according to their strategy and objectives
+  - job_name: E-commerce Manager
+    company_name: Place des Parfums ● Montpellier FRANCE
+    date: October 2009 - June 2011
+    desc: |
+      Conceived, planned, designed and managed an E-commerce website, selling perfumes at discount prices.
+      <br>
+      <br> - Created market research, built marketing audit, communication strategy, and specifications of the website
+      <br> - <strong>Analyzed and measured traffic</strong>, conversions, sessions, and other relevant metrics
+      <br> - Identified issues and obstacles for consumers on the site, and provided solutions to resolve them
+      <br> - Improved user experience, ergonomy, organization of informations
+      <br> - Developed recommendations to <strong>improve customer engagement and conversion</strong>
+      <br> - <strong>Managed digital marketing campaigns</strong> to promote and build brand awareness : e-mailing, SEO, SEA, social medias, blogging
+      <br> - Logistic and Merchandise : management of all products (SEO friendly descriptions, inventory, stock items) but also orders, customers, providers, and overall website merchandising.
+
+
+formations_title: Education
+formations:
+  - name: BTS Communication des entreprises (2 year degree)
+    company_name: IFC ● Montpellier
+    date: 2009 - 2011
+    desc: |
+      <b>Major of Promotion 2011</b>
+      - Commercial Actions & Strategy<br>
+      - Customer Relationship<br/>
+      - Communication & Media Strategy<br/>
+      <br/>
+      - Economy & Legal corporate<br/>
+      - Business management<br/>
+      - Culture of commununication - Marketing<br/>
+      <br/>
+      - Event communication<br/>
+      - Competitor monitoring<br/>
+      - Business watch
+  - name: French High School Diploma - Speciality Litterature
+    company_name: Notre Dame de la Merci ● Montpellier FRANCE
+    date: 2007 - 2009
+    desc: |
+      Graduate with mention - with specialty : Further English 
+
+skills_title: Skills - Abilities
+skills:
+  - Project Management
+  - Marketing - Communication
+  - SEO - SEA
+  - Emailing - Newsletter
+  - Webmarketing & Digital strategy
+  - A/B testing
+  - Copywriting
+  - HTML - CSS
+  - Training - Customer relationship
+  - Community management
+  - Data analysis
+  - UX - Ergonomy
+
+tools_title: Outils
+tools:
+  - Buffer
+  - Trello
+  - Facebook Ads/Insights
+  - Twitter Analytics
+  - Wordpress
+  - Prestashop
+  - Drupal
+  - Blogger
+  - Google Analytics (<a href="http://bit.ly/24Dbk93" target="_blank" style="text-decoration:underline">certification</a>)
+  - Google Webmaster tools
+  - Google Keyword Planner
+  - Google Adwords (<a href="http://bit.ly/1TA0PZ0" target="_blank" style="text-decoration:underline">certification</a>)
+  - Mailchimp
+  - Photoshop, Lightroom, Indesign...
+  - Movie Maker, IiMovie
+  - Filezilla
+
+personnals_title: I AM ...
+personnals:
+  - quality_name: Traveler
+    icon_name: plane
+  - quality_name: Sportive
+    icon_name: heart
+  - quality_name: <a href="http://rouge-cannelle.com" target="_blank" title="My blog">Bloger</a>
+    icon_name: pencil
+  - quality_name: Photo/Video Lover
+    icon_name: camera-retro

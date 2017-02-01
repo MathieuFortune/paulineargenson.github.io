@@ -1,0 +1,160 @@
+post:
+  title: Portfolio
+
+bio:
+  title: Pauline Argenson | Communication - Marketing - Digital
+  description: |
+    Curieuse et passionnée par le milieu du numérique, c'est en 2009 que je me suis naturellement orientée vers le digital marketing.
+    <br/>
+    <br>
+    Diplômée & élue Major de promotion d'un BTS communication en 2011, j'ai depuis piloté de nombreux projets de toutes tailles, pour des typologies de clients très variées. Mes différentes expériences professionnelles m'ont permis d'acquérir de solides compétences en stratégie web-marketing, en gestion de projet, en relation client, ainsi qu'en techniques de formation.
+    <br/>
+    <br>
+    Axée sur les résultats, je suis toujours déterminée à contribuer activement à la réalisation des objectifs et à l'optimisation des performances des sites webs sur lesquels je travaille.
+    <br/>
+    <br>
+    Etant aujourd'hui en quête de nouveaux challenges à l'international, n'hésitez pas à me contacter afin que nous puissions discuter de notre éventuelle prochaine collaboration.
+  img_url: assets/images/pauline-argenson-web-project-manager.jpg
+  img_alt: Photo de l'auteur du site
+  mail: pauline.argenson@gmail.com
+  phone: "06.75.12.80.91"
+  get_cv: Télécharger mon CV
+  cv_url: assets/images/cv_resume_pauline_argenson_digital_marketing_coordinator.pdf
+
+experiences_title: Expérience Professionnelle
+experiences:
+  - job_name: Consultante Marketing Digital 
+    company_name: INTERN ABROAD USA ● Miami
+    date: Juin 2016 - Aujourd'hui
+    desc: |
+      Développement et optimisation de la présence digitale de la société à travers :<br>
+      - SEO<br>
+      - Gestion de campagnes de liens sponsorisés (SEA / Facebook Ads)<br>
+      - Community Management<br>
+      - Blogging<br>
+      - Trafic Management (analyse de données et ROI)<br>
+      - Surveillance de l'E-reputation
+  - job_name: Chef de projet Webmarketing
+    company_name: LEMEMO ● Montpellier
+    date: Mai 2015 - Mai 2016
+    desc: |
+      Gestion de la refonte totale du site principal & élaboration d'une stratégie web-marketing autour de cette refonte, de sa conception à son exécution.<br><br>
+      <i>Refonte du site web :</i>
+      <br> - Conception et rédaction du <strong>cahier des charges, des wireframes</strong> (mockups, personas ...)
+      <br> - <strong>Recettage, tests et recommandations d'optimisations</strong> fonctionnelles, ergonomiques et d'accessibilité
+      <br> - Gestion des prestataires externes (agences, freelances..)<br><br>
+      <i>Développement de la stratégie webmarketing :</i>
+      <br> - Elaboration et mise en oeuvre d'une <strong>stratégie d'acquisition</strong>, incluant des <strong>campagnes de liens sponsorisés (Facebook Ads, Adwords)</strong>, et <strong>campagnes emailing</strong> (ROI de plus de 100%)
+      <br> - Développement et exécution d'une <strong>stratégie de rétention</strong>, dans l'objectif d'accroître le taux d'engagement et de fidélité de nos utilisateurs, par le biais de différents leviers : <strong>newsletters, réseaux sociaux, vidéos, blog, communiqués de presse</strong>. (15% d'augmentation d'utilisateurs récurrents).
+      <br> - Amélioration de la visibilité du site sur les moteurs de recherches et <strong>augmentation du trafic organique de 25%, via une stratégie SEO</strong> réalisée en collaboration avec Olivier Duffez (expert SEO) : optimisations techniques, sémantiques, stratégie de contenu, backlinks etc..
+      <br> - Réalisation et analyse de <strong>tests AB</strong> afin d'augmenter les micros et macros-conversions, et d'améliorer de façon plus générale les performances du site
+      <br> - Production d'un rapport d'analyse mensuel basé sur les <strong>statistiques métriques et dimensionnelles du site</strong>, ainsi que sur les résultats des différentes campagnes menées (ROI), incluant des suggestions d'optimisations.
+      <br> - Gestion de <strong>l'e-réputation</strong> du site et veille concurrentielle hebdomadaire
+  - job_name: Chef de projet Web
+    company_name: Agence Publika ● Montpellier
+    date: Septembre 2012 - Mai 2015
+    desc: |
+      Responsable de nombreux projets de création et-ou de refonte de sites webs pour des entreprises de toutes tailles et de secteurs variés :
+      <br>E-commerces, corporates, blogs, catalogues ...
+      <br>
+      <br> - Gestion globale de projet : définition des objectifs, de la stratégie à mettre en oeuvre pour les atteindre en fonction des <strong>délais, des plannings internes et des budgets attribués</strong>
+      <br> - <strong>Gestion relation-client</strong> : établissement de rapports de proximité sous forme de partenariats. Animation de réunions, briefs, accompagnement et conseils quotidiens
+      <br> - Identification et recommandations d'optimisations dans l'objectif d'augmenter les performances des sites Web : web design, ergonomie, expérience utilisateur, accessibilité, SEO friendly, ..
+      <br> - Coordination entre l'équipe interne (DA, CTO) et les clients, mais aussi avec les freelances et les prestataires d'hébergement.
+      <br> - <strong>Garante de la bonne circulation des informations</strong> entre les différents intervenants au projet.
+      <br> - Conseils et <strong>recommandations de solutions digitales</strong> dans le but d'accroître les résultats marketing.
+      <br> - <strong>Formation de clients</strong> sur des logiciels et CMS afin qu'ils puissent travailler en autonomie.
+  - job_name: Chargée de clientèle
+    company_name: Agence Publika ● Montpellier
+    date: Juin 2011 - Août 2012
+    desc: |
+      Responsable principale de la relation client
+      <br>
+      <br> - Gestion et maintien du portefeuille de clients (50)
+      <br> - <strong>Qualification des besoins, établissement d'offres commerciales</strong>, de contrats et cahiers des charges
+      <br> - Garante de la bonne coordination et communication des informations intra et inter-services
+      <br> - Mesure et maintien de la <strong>satisfaction client</strong>
+      <br> - Identification, analyse et proposition de solutions adaptées aux clients en fonction de leur stratégie et de leurs objectifs
+      <br> - <strong>Conseil, accompagnement, suivi, et fidélisation des clients</strong> sur le long terme
+  - job_name: Responsable E-commerce
+    company_name: Place des Parfums ● Montpellier
+    date: Octobre 2009 - Juin 2011
+    desc: |
+      Conception et gestion d'un site e-commerce de vente de parfums à prix discount.
+      <br>
+      <br> - Etude de marché, audit concurrentiel, stratégie de communication, rédaction du cahier des charges fonctionnel
+      <br> - <strong>Analyse quotidienne du trafic</strong>, des conversions, des sessions, et autres datas pertinentes à l'e-commerce
+      <br> - Identification d'obstacles rencontrés par les visiteurs du site dans le tunnel de conversion, et mise en place de solutions pour les résoudre
+      <br> - Travail sur <strong>l'expérience utilisateur, l'ergonomie, la hiérarchisation et structure des informations</strong>
+      <br> - Mise en place d'actions visant à <strong>améliorer le taux d'engagement et de fidélité des clients</strong>
+      <br> - <strong>Création et gestion de campagnes web-marketing</strong>, avec pour objectif de promouvoir et développer la notoriété de la marque par le biais de différents leviers : e-mailing, SEO, SEA, réseaux sociaux, blogs...
+      <br> - Logistique : gestion quotidienne du catalogue produits (rédaction de descriptions SEO friendly, inventaire, gestion des stocks), des commandes, du SAV clients, et des fournisseurs.
+
+formations_title: Formations
+formations:
+  - name: BTS Communication des entreprises
+    company_name: IFC ● Montpellier
+    date: 2009 - 2011
+    desc: |
+      <b>Major de Promotion 2011</b>
+      - Actions & relations commerciales<br/>
+      - Conseil & relation annonceurs<br/>
+      - Élaboration de stratégies de communication<br/>
+      <br/>
+      - Mise en place d’actions de communication médias/hors médias <br/>
+      - Droit juridique des entreprises<br/>
+      - Management opérationnel<br/>
+      <br/>
+      - Culture de la communication<br/>
+      - Anglais orienté business & marketing<br/>
+      - Pilotage de projets
+  - name: Baccalauréat littéraire
+    company_name: Notre Dame de la Merci ● Montpellier
+    date: 2007 - 2009
+    desc: |
+      Obtenu avec mention - Spécialité Anglais renforcé
+
+skills_title: Compétences
+skills:
+  - Gestion de projet
+  - Marketing - Communication
+  - Stratégie SEO - SEA
+  - Emailing - Newsletter
+  - Stratégie Webmarketing - Digitale
+  - A/B testing
+  - Rédaction de contenus
+  - HTML - CSS
+  - Formation - Relation client
+  - Community management
+  - Analyse de données
+  - UX - Ergonomie
+
+tools_title: Outils
+tools:
+  - Buffer
+  - Trello
+  - Facebook Ads/Insights
+  - Twitter Analytics
+  - Wordpress
+  - Prestashop
+  - Drupal
+  - Blogger
+  - Google Analytics (<a href="http://bit.ly/24Dbk93" target="_blank" style="text-decoration:underline">certification</a>)
+  - Google Webmaster tools
+  - Google Keyword Planner
+  - Google Adwords (<a href="http://bit.ly/1TA0PZ0" target="_blank" style="text-decoration:underline">certification</a>)
+  - Mailchimp
+  - Photoshop, Lightroom, Indesign...
+  - Movie Maker, IiMovie
+  - Filezilla
+
+personnals_title: Je suis...
+personnals:
+  - quality_name: Voyageuse
+    icon_name: plane
+  - quality_name: Sportive
+    icon_name: heart
+  - quality_name: <a href="http://rouge-cannelle.com" target="_blank" title="Mon blog">Blogeuse</a>
+    icon_name: pencil
+  - quality_name: Amatrice Photo/Vidéo
+    icon_name: camera-retro

@@ -1,0 +1,80 @@
+.timeline {
+  position: relative;
+
+  li {
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .timeline-badge {
+    background-color: $brand-primary;
+    border-radius: 50%;
+    color: $white-color;
+    display: none;
+    font-size: 1.4em;
+    height: 50px;
+    left: 3%;
+    line-height: 50px;
+    margin-left: -25px;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+    width: 50px;
+    z-index: 100;
+
+    &.forma {
+      background-color: $brand-secondary;
+    }
+
+    @media screen and (min-width: $screen-sm) {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: $screen-sm) {
+    // timeline side border
+    &::before {
+      background-color: #EEE;
+      bottom: 0;
+      content: ' ';
+      left: 3%;
+      margin-left: -1.5px; // align correctly with timeline badge
+      position: absolute;
+      top: 0;
+      width: 3px;
+    }
+  }
+
+}
+
+.timeline-panel {
+  background: $body-bg;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .175);
+  padding: 20px;
+  position: relative;
+  @media screen and (min-width: $screen-sm) {
+    float: right;
+    width: 90%;
+    &::before {
+      // Side arrow
+      border-bottom: 15px solid transparent;
+      border-left: 0;
+      border-right: 15px solid #ccc;
+      border-top: 15px solid transparent;
+      content: ' ';
+      display: inline-block;
+      left: -15px;
+      position: absolute;
+      right: auto;
+      top: 26px;
+    }
+  }
+
+  .timeline-body {
+    p {
+      margin-bottom: 0;
+    }
+  }
+}

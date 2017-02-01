@@ -1,0 +1,39 @@
+.labeled {
+  > li,
+  > span {
+    border: 1px solid $text-color;
+    color: $text-color;
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+
+  &--info {
+    > li,
+    > span {
+      border: 1px solid $brand-info;
+      color: $brand-info;
+      margin-bottom: 5px;
+      padding: 5px;
+    }
+  }
+
+  &--primary {
+    > li,
+    > span {
+      border: 1px solid $brand-primary;
+      color: $brand-primary;
+      margin-bottom: 5px;
+      padding: 5px;
+    }
+  }
+
+  &--warning {
+    > li,
+    > span {
+      border: 1px solid $brand-warning;
+      color: $brand-warning;
+      margin-bottom: 5px;
+      padding: 5px;
+    }
+  }
+}
