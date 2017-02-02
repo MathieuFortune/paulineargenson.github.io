@@ -1,0 +1,89 @@
+portfolio:
+  title: Portfolio
+  also: Mais aussi ...
+
+projects:
+  - name: LEMEMO
+    domain: Réseau De Mise En Relation Professionnel
+    description: |
+      Refonte graphique, ergonomique et structurelle d’un réseau de mise en relation professionnel<br/>
+      Elaboration d’une stratégie webmarketing visant à capter de nouveaux utilisateurs par le biais de divers canaux d'acquisition, puis à les fidéliser (1M visites /an) 
+      <br/>
+      <strong>
+      + 25% trafic en provenance de résultats de recherches organiques<br/>
+      + 100% ROI des campagnes d'acquisition (e-mailing / Facebook Ads / Adwords )<br/>
+      + 15 % de visiteurs récurrents<br/>
+      + 100% d'accroissement de la communauté Facebook
+      </strong>
+    link_url: http://lememo.com
+    link_title: Site web de Lememo
+    img_src: project-lememo.png
+    img_alt: Illustration projet Lememo
+  - name: LA GRAPPE DE MONTPELLIER
+    domain: Alcools Et Spiritueux
+    description: |
+      Création d’une identité visuelle haut de gamme autour d’une Vodka naturelle. 
+      Site web responsive au visuel attractif servant de vitrine commerciale pour acquérir de nouveaux revendeurs du produit. 
+      <br>
+      <strong> + 50 points de vente signés en moins de 2 ans</strong>
+    link_url: http://www.lagrappedemontpellier.com/
+    link_title: Site web La grappe de Montpellier
+    img_src: project-grappe.png
+    img_alt: Illustration projet La grappe de Montpellier
+  - name: EMINENCE
+    domain: Mode - Prêt À Porter
+    description: |
+      Refonte responsive du site internet de la marque de vêtements, basée sur ses principales valeurs, la simplicité et l’élégance, tout en y apportant une touche de modernité.<br/>
+      <strong>+ 40% de trafic en provenance des mobiles et tablettes</strong>
+    link_url: http://eminence.fr
+    link_title: Site web Eminence
+    img_src: project-eminence.png
+    img_alt: Illustration projet Eminence
+  - name: PROPOLIA
+    domain: Beauté - Santé
+    description: |
+      Création d’un site internet e-commerce adaptatif dédié aux produits Propolia (produits 100% naturels à base de Propolis). Création d’un univers visuel naturel et ludique autour de l’abeille.<br>
+      <strong>
+        + 160% d’augmentation des ventes en 1 an<br>
+        + 200% d'augmentation du trafic en 1 an
+      </strong>
+    link_url: http://propolia.fr
+    link_title: Site web Propolia
+    img_src: project-propolia.png
+    img_alt: Illustration projet Propolia
+  - name: DOMAINE DE MASSANE
+    domain: Hôtellerie
+    description: |
+      Refonte du site internet du complexe hôtelier, mise en oeuvre d’une stratégie SEO géolocalisée & stratégie de rétention (newsletters, blog réseaux sociaux)
+      <strong>
+        +70% de hausse du positionnement organique<br>
+        +80 % d’augmentation du trafic organique<br>
+        + 30% de visiteurs récurrents
+      </strong>
+    link_url: http://massane.com
+    link_title: Site web Domaine de massane
+    img_src: project-massane.png
+    img_alt: Illustration projet Domaine de massane
+
+projects_draft:
+  - domain: Vin - Oenologie
+    names: Château Cabezac, Vpoint, Chateau Callac
+  - domain: Agro-alimentaire
+    names: Boulangerie ange, Eurolabo, LYSI, Fytexia"
+  - domain: Santé - Beauté
+    names: Institut salvador, Just france, Ecole esthétique du millénaire, Apimab Laboratoires"
+  - domain: Santé
+    names: Laboratoires Insphy, SFNR (Société française de Neuroradiologie), Epsilog (Logiciel sur mesure spécialisé pour les Kinésithérapeutes, Infirmières, Orthophonistes..)"
+  - domain: Immobilier
+    names: Groupe Buesa Esteve, Cabinet lieutaud, Immobiliere pujol, Icare immobilier, Familia investissements"
+  - domain: Education - Formation
+    names: IRTS, Cours reussite, Ecole esthétique du millénaire"
+  - domain: Mode
+    names: Athena"
+  - domain: Services
+    names: Baches publicitaires, Matooma, Corpo events, OCEAN, Sofid - Dock services, Frontier pitts"
+  - domain: Energies renouvelables
+    names: Univers solaire, Inovelec, Groupe Ecoannuaire"
+  - domain: Sport
+    names: ASBH, Zumba annecy, Blmh"
+

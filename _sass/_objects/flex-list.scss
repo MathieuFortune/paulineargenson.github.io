@@ -1,0 +1,6 @@
+@supports (display: flex) {
+  .flex-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
