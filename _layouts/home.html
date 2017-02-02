@@ -105,7 +105,41 @@
 
     <div class="container">
 
-      <section class="" id="iam-section">
+      {% if site.data.portfolio[page.lang] != null %}
+      <section id="portfolio-section">
+        <h2 class="text-center">{{ site.data.portfolio[page.lang].portfolio.title }}</h2>
+
+        <ul class="portfolio flex-list row list-unstyled clearfix">
+          {% for project in site.data.portfolio[page.lang].projects %}
+          <li class="list-item marg-vert-small {% if forloop.first != true %}col-sm-6{% else %} {% endif %}">
+            <figure class="{% if forloop.first != true %}col-md-4{% else %}col-sm-3{% endif %} text-center">
+              <a href="{{ project.link_url }}" title="{{ project.link_title }}">
+                <img src="assets/images/projects/{{ project.img_src }}" alt="{{ project.img_alt }}" class="img-responsive"/>
+              </a>
+            </figure>
+            <div class="{% if forloop.first != true %}col-md-8{% else %}col-sm-8{% endif %}">
+              <figcaption>
+                <h4 class="text-primary no-marg-top no-marg-bot">{{ project.name }}</h4>
+                <p class="text-strong">{{ project.domain }}</p>
+              </figcaption>
+              <div>{{ project.description }}</div>
+            </div>
+          </li>
+          {% endfor %}  
+        </ul>
+
+        <p class="text-primary h4">{{ site.data.portfolio[page.lang].portfolio.also }}</p>
+        <ul class="list-unstyled">
+          {% for project in site.data.portfolio[page.lang].projects_draft %}
+          <li><span class="text-strong">{{ project.domain }} :</span> {{ project.names }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endif %}
+
+
+      <section id="iam-section">
+        <hr/>
         <h2 class="text-center">{{ site.data[page.lang].personnals_title }}</h2>
         <ul class="list-unstyled clearfix">
           {% for el in site.data[page.lang].personnals %}
@@ -114,10 +148,10 @@
           </li>
           {% endfor %}
         </ul>
+        <hr/>
       </section>
-
-      <section id="portfolio-section">
-        <h2 class="text-center">{{ site.data[page.lang].post.title }}</h2>
+      
+      <section>
         <ul class="post-list">
           {% assign posts=site.posts | where:"lang", page.lang %}
           {% for post in posts %}
@@ -131,8 +165,6 @@
         </ul>
         <p class="rss-subscribe">suivre le <a href="{{ "/flux.xml" | prepend: site.baseurl }}">flux RSS</a></p>
       </section>
-
-
     </div>
 
   </main>
