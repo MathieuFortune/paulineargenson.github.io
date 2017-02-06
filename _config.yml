@@ -33,7 +33,7 @@ posts_enabled: false
 
 twitter_username: paulineargenson
 github_username:  paulineargenson
-google_analytics:
+google_analytics: UA-60615317-1
 
 # Build settings
 markdown: kramdown
