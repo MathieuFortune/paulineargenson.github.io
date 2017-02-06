@@ -1,8 +1,5 @@
-post:
-  title: Portfolio
-
 bio:
-  title: Pauline Argenson | Communication - Digital Marketing Coordinator
+  title: Digital Marketing Coordinator
   description: |
     Through my 6+ years of experience I developed a set of analytic, strategic and organization skills enabling me to review, plan, lead, execute, measure and optimize projects and marketing campaigns on time and within budget.
     <br>
@@ -153,3 +150,9 @@ personnals:
     icon_name: pencil
   - quality_name: Photo/Video Lover
     icon_name: camera-retro
+
+rss_follow: Follow
+rss_flux: RSS flux
+
+post:
+  title: My articles

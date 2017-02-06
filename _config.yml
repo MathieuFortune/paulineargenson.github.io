@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 
-  en: Digital project manager - Pauline Argenson
-  fr: Chef de Projet Digital - Pauline Argenson
+  en: Resume - Pauline Argenson
+  fr: CV - Pauline Argenson
 email: pauline.argenson@gmail.com
 description:
   en: With 6 years of experience in Digital Marketing, I'm now looking for new challenges at the international
@@ -28,6 +28,9 @@ feed:
   fr: /flux.xml
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: none
+posts_enabled: false
+
 twitter_username: paulineargenson
 github_username:  paulineargenson
 google_analytics:

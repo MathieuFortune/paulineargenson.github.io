@@ -1,5 +1,5 @@
 bio:
-  title: Pauline Argenson | Communication - Marketing - Digital
+  title: Digital Marketing Coordinator
   description: |
     Curieuse et passionnée par le milieu du numérique, c'est en 2009 que je me suis naturellement orientée vers le digital marketing.
     <br/>
@@ -151,7 +151,13 @@ personnals:
     icon_name: plane
   - quality_name: Sportive
     icon_name: heart
-  - quality_name: <a href="http://rouge-cannelle.com" target="_blank" title="Mon blog">Blogeuse</a>
+  - quality_name: <a href="http://rouge-cannelle.com" target="_blank" title="Mon blog">Blogueuse</a>
     icon_name: pencil
   - quality_name: Amatrice Photo/Vidéo
     icon_name: camera-retro
+
+rss_follow: Suivre
+rss_flux: flux RSS
+
+post:
+  title: Mes articles
