@@ -151,20 +151,24 @@
         <hr/>
       </section>
       
+      {% if site.posts_enabled == true %}
       <section>
-        <ul class="post-list">
+        <h2 class="text-center">{{ site.data[page.lang].post.title }}</h2>
+        <ul class="post-list row">
           {% assign posts=site.posts | where:"lang", page.lang %}
           {% for post in posts %}
-          <li>
+          <li class="col-sm-6">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h2>
+            <h2 class="no-marg-top">
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
+            {{ post.excerpt | strip_html }}
           </li>
           {% endfor %}
         </ul>
-        <p class="rss-subscribe">suivre le <a href="{{ "/flux.xml" | prepend: site.baseurl }}">flux RSS</a></p>
+        <p class="rss-subscribe">{{ site.data[page.lang].rss_follow }} <a href="{{ "/flux.xml" | prepend: site.baseurl }}">{{ site.data[page.lang].rss_flux }}</a></p>
       </section>
+      {% endif %}
     </div>
 
   </main>

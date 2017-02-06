@@ -1,0 +1,88 @@
+portfolio:
+  title: Portfolio
+  also: But also ...
+
+projects:
+  - name: LEMEMO
+    domain: Consumer Service Website
+    description: |
+      Graphic, ergonomic and structural overhaul of a network connecting customers to professionals. 
+      Elaborate webmarketing strategy to acquire new users through several marketing channels (SEO, SEA, Emailing, sponsored links..), and work on their retention (newsletters, social medias, satisfaction survey..) - (1M visitors/year)
+      <br/>
+      <strong>
+      + 25% trafic from organic research<br/>
+      + 100% ROI from acquisition campaigns (e-mailing / Facebook Ads / Adwords )<br/>
+      + 15 % returning visitors<br/>
+      + 100% growth of facebook community
+      </strong>
+    link_url: http://lememo.com
+    link_title: Lememo's website
+    img_src: project-lememo.png
+    img_alt: Illustration project Lememo
+  - name: LA GRAPPE DE MONTPELLIER
+    domain: Alcohols & Spirits
+    description: |
+      Creation of luxury visual identity around a natural Vodka. Responsive website with elaborate design. The attractive visual is using like commercial showcase, to attract new retailers and distributors of the product.
+      <br>
+      <strong> +50 sales point got in less than 2 years</strong>
+    link_url: http://www.lagrappedemontpellier.com/
+    link_title: La grappe de Montpellier website
+    img_src: project-grappe.png
+    img_alt: Illustration project La grappe de Montpellier
+  - name: EMINENCE
+    domain: Fashion - Wearing
+    description: |
+      Adaptative overhaul of clothes brand website, based on simplicity and elegance which are main values of the historical brand, while bringing a modern touch.<br/>
+      <strong>+ 40% of trafic from mobile & tablet</strong>
+    link_url: http://eminence.fr
+    link_title: Eminence's website
+    img_src: project-eminence.png
+    img_alt: Illustration project Eminence
+  - name: PROPOLIA
+    domain: Beauty - Health
+    description: |
+      E-commerce adaptative website selling products of the brand (100% naturals made of Propolis). Creation of natural and cheerful visual identity around bee.<br>
+      <strong>
+        + 160% increasing of sales in 1 year<br>
+        + 200% increasing of trafic in 1 year
+      </strong>
+    link_url: http://propolia.fr
+    link_title: Propolia's website
+    img_src: project-propolia.png
+    img_alt: Illustration project Propolia
+  - name: DOMAINE DE MASSANE
+    domain: Hotel*** - Spa - Golf
+    description: |
+      Overhaul of resort website, implement geolocated SEO & retention strategy (newsletters, blog réseaux sociaux)
+      <strong>
+        +70% of organic rank position<br>
+        +80 % of organic trafic<br>
+        + 20% increase of customer retention
+      </strong>
+    link_url: http://massane.com
+    link_title: Domaine de massane's website
+    img_src: project-massane.png
+    img_alt: Illustration project Domaine de massane
+
+projects_draft:
+  - domain: Wine - Oenology
+    names: Château Cabezac, Vpoint, Chateau Callac
+  - domain: Food Industry
+    names: Boulangerie ange, Eurolabo, LYSI, Fytexia"
+  - domain: Beauty
+    names: Institut salvador, Just france, Ecole esthétique du millénaire, Apimab Laboratoires"
+  - domain: Health
+    names: Laboratoires Insphy, SFNR (Société française de Neuroradiologie), Epsilog (Logiciel sur mesure spécialisé pour les Kinésithérapeutes, Infirmières, Orthophonistes..)"
+  - domain: Real Estate
+    names: Groupe Buesa Esteve, Cabinet lieutaud, Immobiliere pujol, Icare immobilier, Familia investissements"
+  - domain: Education
+    names: IRTS, Cours reussite, Ecole esthétique du millénaire"
+  - domain: Fashion
+    names: Athena"
+  - domain: Services (BtoB) 
+    names: Baches publicitaires, Matooma, Corpo events, OCEAN, Sofid - Dock services, Frontier pitts"
+  - domain: Renewable Energies
+    names: Univers solaire, Inovelec, Groupe Ecoannuaire"
+  - domain: Sport
+    names: ASBH, Zumba annecy, Blmh"
+
