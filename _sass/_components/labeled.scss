@@ -1,39 +1,46 @@
-.labeled {
+.labeled,
+%labeled {
   > li,
   > span {
+    background-color: $text-color;
     border: 1px solid $text-color;
-    color: $text-color;
+    border-radius: 2px;
+    color: $white-color;
     margin-bottom: 5px;
-    padding: 5px;
+    padding: 3px;
+
+    a {
+      color: inherit;
+    }
   }
 
   &--info {
+    @extend %labeled;
+
     > li,
     > span {
+      background-color: $brand-info;
       border: 1px solid $brand-info;
-      color: $brand-info;
-      margin-bottom: 5px;
-      padding: 5px;
     }
   }
 
   &--primary {
+    @extend %labeled;
+
     > li,
     > span {
+      background-color: $brand-primary;
       border: 1px solid $brand-primary;
-      color: $brand-primary;
-      margin-bottom: 5px;
-      padding: 5px;
     }
   }
 
   &--warning {
+    @extend %labeled;
+
     > li,
     > span {
+      background-color: $brand-warning;
       border: 1px solid $brand-warning;
-      color: $brand-warning;
-      margin-bottom: 5px;
-      padding: 5px;
     }
   }
 }
