@@ -5,7 +5,7 @@ date:   2017-02-09 16:40:00 +0100
 categories: 
 lang: en
 ref: visual-content-2017
-excerpt: In this article, I focus on the 8 main types of visual content for 2017.
+excerpt: Visual content is now an essential component of a overall marketing strategy. In this article, I focus on the 8 main types of visual content for 2017.
 ---
 
 ![20 tools for digital marketers](https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAfRAAAAJDNhZjZlOGRmLTNjNTAtNDllMi1hNmQ4LTg3ZjJhZjUwNGIzZA.jpg)
