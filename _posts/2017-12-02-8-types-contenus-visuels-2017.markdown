@@ -18,6 +18,6 @@ Un article très complet a été publié cette année par HubSpot concernant l'i
 - Plus de 50% des professionnels du marketing dans le monde considèrent que les vidéos constituent les contenus obtenant les meilleurs retours sur investissements.
 - Les infographies sont les contenus les plus likés et partagés sur les réseaux sociaux (plus de 3 fois plus que les autres contenus).
 
-
+C'est pourquoi j'ai décidé de consacrer un article sur les 8 types de contenus visuels les plus engageants de 2017.
 
 [Lire cet article sur Linkedin (rédigé en anglais)](https://www.linkedin.com/pulse/8-engaging-visual-content-types-2017-pauline-argenson){:target="_blank"}
