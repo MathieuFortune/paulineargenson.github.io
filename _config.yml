@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 
+title:
   en: Resume - Pauline Argenson
   fr: CV - Pauline Argenson
 email: pauline.argenson@gmail.com
@@ -34,6 +34,12 @@ posts_enabled: true
 twitter_username: paulineargenson
 github_username:  paulineargenson
 google_analytics: UA-60615317-1
+
+# Maintenance mode
+maintenance: true
+maintenance_message:
+  en: Site under maintenance, coming back soon !
+  fr: Site en maintenance, de retour très vite !
 
 # Build settings
 markdown: kramdown
