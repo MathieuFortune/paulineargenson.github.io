@@ -6,7 +6,7 @@
 <body>
 
   {% include header.html %}
-
+  {% if site.maintenance == false %}
   <main class="page-content home" aria-label="Content">
     <div class="container">
       <section class="row" id="bio-section">
@@ -125,7 +125,7 @@
               <div>{{ project.description }}</div>
             </div>
           </li>
-          {% endfor %}  
+          {% endfor %}
         </ul>
 
         <p class="text-primary h4">{{ site.data.portfolio[page.lang].portfolio.also }}</p>
@@ -150,7 +150,7 @@
         </ul>
         <hr/>
       </section>
-      
+
       {% if site.posts_enabled == true %}
       <section>
         <h2 class="text-center">{{ site.data[page.lang].post.title }}</h2>
@@ -171,6 +171,12 @@
     </div>
 
   </main>
+  {% else %}
+  <main>
+    <h2 class="text-center">{{ site.maintenance_message[page.lang] }}</h2>
+  </main>
+  {% endif %}
+
 
   {% include footer.html %}
 
