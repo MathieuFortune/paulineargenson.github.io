@@ -36,7 +36,7 @@ github_username:  paulineargenson
 google_analytics: UA-60615317-1
 
 # Maintenance mode
-maintenance: false
+maintenance: true
 maintenance_message:
   en: Site under maintenance, coming back soon !
   fr: Site en maintenance, de retour très vite !
